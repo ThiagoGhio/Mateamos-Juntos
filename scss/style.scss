@@ -1,0 +1,24 @@
+@import "./base/reset";
+@import "./utilities/variable";
+* {
+  body {
+    position: relative;
+    min-height: 100vh;
+    padding-bottom: 100px;
+  }
+  h1 {
+    text-align: center;
+    font-size: 40px;
+    color: #566573;
+    text-shadow: 1px 1px #808b96;
+  }
+
+  @import "./layout/footer";
+  @import "./layout/mainDudas";
+  @import "./layout/mainFormulario";
+  @import "./layout/mainProductos";
+  @import "./layout/mainQuienesSomos";
+  @import "./layout/mediaEscritorio";
+  @import "./layout/mediaTablet";
+  @import "./layout/mediaMobile";
+}

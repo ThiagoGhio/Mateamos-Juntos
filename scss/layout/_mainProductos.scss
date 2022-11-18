@@ -1,0 +1,42 @@
+.containerGrid {
+  display: grid;
+  grid-template-columns: repeat(2 200px);
+  grid-template-rows: repeat(4 200px);
+  gap: 50px;
+  grid-template-areas:
+    "torpedo camionero"
+    "imperial bombilla"
+    "cincelada matera"
+    "termolar stanley";
+  justify-content: center;
+  .torpedo img {
+    height: 350px;
+    width: 350px;
+    border: 5px solid #abb2b9;
+    border-radius: 5px;
+  }
+  .camionero img {
+    @extend .torpedo;
+  }
+  .imperial img {
+    @extend .torpedo;
+  }
+  .bombilla img {
+    @extend .torpedo;
+  }
+  .cincelada img {
+    @extend .torpedo;
+  }
+
+  .matera img {
+    @extend .torpedo;
+  }
+
+  .termolar img {
+    @extend .torpedo;
+  }
+
+  .stanley img {
+    @extend .torpedo;
+  }
+}

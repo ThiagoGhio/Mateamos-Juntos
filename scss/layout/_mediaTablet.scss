@@ -1,0 +1,36 @@
+@media (max-width: 768px) {
+  .contactoFormulario {
+    width: 50%;
+  }
+
+  .header {
+    flex-direction: column;
+  }
+
+  .header .navLinks a {
+    font-size: 18px;
+    flex-direction: column;
+  }
+
+  h1 {
+    font: size 32px;
+  }
+
+  .textoDudas h2 {
+    font-size: 24px;
+  }
+
+  .textoDudas {
+    font-size: 20px;
+  }
+
+  footer h2 {
+    font-size: 14px;
+  }
+  .textoQuienesSomos {
+    font-size: 20px;
+  }
+  .containerGrid {
+    @include flex-mobile;
+  }
+}
